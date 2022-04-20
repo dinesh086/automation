@@ -1,0 +1,14 @@
+<!ELEMENT suite (listeners,test)>
+<!ATTLIST suite parallel NMTOKEN #REQUIRED>
+<!ATTLIST suite name NMTOKEN #REQUIRED>
+<!ELEMENT listeners (listener)>
+<!ELEMENT listener EMPTY>
+<!ATTLIST listener class-name NMTOKEN #REQUIRED>
+<!ELEMENT test (prameter+,classes)>
+<!ATTLIST test name NMTOKEN #REQUIRED>
+<!ELEMENT prameter EMPTY>
+<!ATTLIST prameter name NMTOKEN #REQUIRED>
+<!ATTLIST prameter value NMTOKEN #REQUIRED>
+<!ELEMENT classes (class)>
+<!ELEMENT class EMPTY>
+<!ATTLIST class name NMTOKEN #REQUIRED>

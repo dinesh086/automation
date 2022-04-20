@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23002" started-at="2022-04-20T12:17:20 IST" finished-at="2022-04-20T12:17:43 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="23002" started-at="2022-04-20T12:17:20 IST" finished-at="2022-04-20T12:17:43 IST">
+      <class name="com.qa.tests.VerificationTests">
+        <test-method status="PASS" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.VerificationTests@4e41089d]" name="beforeTest" is-config="true" duration-ms="7460" started-at="2022-04-20T12:17:20 IST" finished-at="2022-04-20T12:17:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Xiaomi11i]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[gmaybemv9xaaeqpz]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qa.tests.VerificationTests@4e41089d]" name="beforeClass" is-config="true" duration-ms="4" started-at="2022-04-20T12:17:27 IST" finished-at="2022-04-20T12:17:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.VerificationTests@4e41089d]" name="beforeMethod" is-config="true" duration-ms="1805" started-at="2022-04-20T12:17:27 IST" finished-at="2022-04-20T12:17:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.VerificationTests.otpVerification() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="otpVerification()[pri:0, instance:com.qa.tests.VerificationTests@4e41089d]" name="otpVerification" duration-ms="13308" started-at="2022-04-20T12:17:29 IST" finished-at="2022-04-20T12:17:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- otpVerification -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.VerificationTests@4e41089d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-04-20T12:17:42 IST" finished-at="2022-04-20T12:17:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qa.tests.VerificationTests@4e41089d]" name="afterClass" is-config="true" duration-ms="0" started-at="2022-04-20T12:17:42 IST" finished-at="2022-04-20T12:17:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qa.tests.VerificationTests@4e41089d]" name="afterTest" is-config="true" duration-ms="388" started-at="2022-04-20T12:17:42 IST" finished-at="2022-04-20T12:17:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.qa.tests.VerificationTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

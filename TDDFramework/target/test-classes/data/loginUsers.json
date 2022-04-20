@@ -1,0 +1,12 @@
+{
+	
+	"invalidEmail":{
+		"email":"Dinesh@yopmail.com"
+		
+	},
+	
+	"validEmail":{
+		"email":"Dinesh@123456.test"
+	}
+	
+}
